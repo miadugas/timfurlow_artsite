@@ -8,7 +8,7 @@
 
 <hr>
 
- <!-- ![Main View](https://github.com/miadugas/svelte_ecomm/blob/main/black_mirror.png) -->
+ ![Main View](https://github.com/miadugas/timfurlow_artsite/blob/main/tffa01.png)
 ## Issues platform
 
 <!-- Removed JSON.Parse from Store.js lines #5-#18
