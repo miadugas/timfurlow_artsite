@@ -1,6 +1,13 @@
+import { PayPalScriptProvider } from '@paypal/react-paypal-js';
+import { SnackbarProvider } from 'notistack';
 import { useEffect } from 'react';
 import '../styles/globals.css';
 import { StoreProvider } from '../utils/Store';
+
+const initialOptions = {
+	'client-id': (process.env.PAYPAL_CLIENT_ID),
+	currency: 'USD',
+};
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -10,9 +17,13 @@ function MyApp({ Component, pageProps }) {
     }
   }, []);
   return (
-    <StoreProvider>
-      <Component {...pageProps} />
-    </StoreProvider>
+    <SnackbarProvider anchorOrigin={{ vertical: 'top', horizontal: 'center' }}>
+      <StoreProvider>
+        <PayPalScriptProvider deferLoading={true} options={initialOptions}>
+          <Component {...pageProps} />
+        </PayPalScriptProvider>
+      </StoreProvider>
+    </SnackbarProvider>
   );
 }
 

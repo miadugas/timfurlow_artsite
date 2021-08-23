@@ -9,11 +9,34 @@
 <hr>
 
  <!-- ![Main View](https://github.com/miadugas/svelte_ecomm/blob/main/black_mirror.png) -->
+## Issues platform
+
+<!-- Removed JSON.Parse from Store.js lines #5-#18
+const initialState = {
+  darkMode: Cookies.get('darkMode') === 'ON' ? true : false,
+  cart: {
+    cartItems: Cookies.get('cartItems')
+      ? (Cookies.get('cartItems'))
+      : [],
+    shippingAddress: Cookies.get('shippingAddress')
+      ? (Cookies.get('shippingAddress'))
+      : {},
+  },
+  userInfo: Cookies.get('userInfo')
+    ? (Cookies.get('userInfo'))
+    : null,
+}; 
+///////////////////
+Math round2 in placeorder ??? check on that 
+///////////////////
+
+-->
+
 
 ## Technology Used
 
-MongoDB, Mongoose, Node.js, React, NextJS, Next Connect
-
+MongoDB, Mongoose, Node.js, React, NextJS, Next Connect, React Hook Form
+Streamifier, Multer, Cloudinary
 <hr>
 
 ### Additional Styling & Non-Technical Frameworks
@@ -51,4 +74,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 # iart_next
+
 # iart_next
