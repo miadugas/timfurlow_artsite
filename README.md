@@ -9,6 +9,7 @@
 <hr>
 
  ![Main View](https://github.com/miadugas/timfurlow_artsite/blob/main/tffa01.png)
+
 ## Issues platform
 
 <!-- Removed JSON.Parse from Store.js lines #5-#18
