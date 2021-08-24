@@ -88,25 +88,5 @@ const useStyles = makeStyles((theme) => ({
   sort: {
     marginRight: 5,
   },
-  
-  /* About */
-// timmedium {
-//   max-width: 39rem;
-//   width: 100%;
-// }
-// img.tim-header {
-//   max-width: 29rem;
-//   width: 100%;
-// }
-// .card2 {
-//   border: 0.1rem #c0c0c0 solid;
-//   background-color: #f8f8f8;
-//   border-radius: 0.5rem;
-//   margin: 1rem;
-// }
-// .card-body2{
-//   padding: 1rem;
-// }
 }));
 export default useStyles;
-
