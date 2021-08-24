@@ -34,11 +34,15 @@ export default function AboutMe() {
                     <Grid container>
                     <Grid item xs={1} />
                         <br />
-                            <div> My name is Tim Furlow. I'm an artist with a few other skills such as photography, sculpture and videography, but I specialize in Pop Art Pointilism with acrylic on canvas. 
-                                Art is everywhere you look. For me, it's every waking moment, and a constant search. My approach to painting is the creation of a blend of pop art, overshadowing brilliantly colored abstract art. Each piece is completed 1 dot at a time using a size 0 brush. No stencils are used in any piece. Commissioned work and live events are available- for event scheduling, please feel free to contact me.
+                            <div> My name is Tim Furlow. I&apos;m an artist with a few other skills such as photography, sculpture and videography, 
+                                but I specialize in Pop Art Pointilism with acrylic on canvas. 
+                                Art is everywhere you look. For me, it&apos;s every waking moment, and a constant search. 
+                                My approach to painting is the creation of a blend of pop art, overshadowing brilliantly colored abstract art. 
+                                Each piece is completed 1 dot at a time using a size 0 brush. No stencils are used in any piece. 
+                                Commissioned work and live events are available- for event scheduling, please feel free to contact me.
                             <br />
-                                I've started a kickstarter to crowdfund my very first true crime documentary. 
-                                My goal is to show the world what they've forgotten. 
+                                I&apos;ve started a kickstarter to crowdfund my very first true crime documentary. 
+                                My goal is to show the world what they&apos;ve forgotten. 
                                 I love recreating the past in a modern way. 
                                 Please join me on this wild ride in the life of an artist! 
                             </div>
