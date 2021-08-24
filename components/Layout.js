@@ -11,7 +11,6 @@ import {
   createTheme,
   ThemeProvider,
   CssBaseline,
-  Switch,
   Badge,
   Button,
   Menu,
@@ -37,6 +36,8 @@ import { useRouter } from 'next/router';
 import { useSnackbar } from 'notistack';
 import axios from 'axios';
 import { useEffect } from 'react';
+//import ContactForm from "../pages/contact";
+
 import tffa from '../public/images/tffa.png';
 
 export default function Layout({ title, description, children }) {
@@ -101,11 +102,11 @@ export default function Layout({ title, description, children }) {
     fetchCategories();
   }, []);
 
-  const darkModeChangeHandler = () => {
-    dispatch({ type: darkMode ? 'DARK_MODE_OFF' : 'DARK_MODE_ON' });
-    const newDarkMode = !darkMode;
-    Cookies.set('darkMode', newDarkMode ? 'ON' : 'OFF');
-  };
+  // const darkModeChangeHandler = () => {
+  //   dispatch({ type: darkMode ? 'DARK_MODE_OFF' : 'DARK_MODE_ON' });
+  //   const newDarkMode = !darkMode;
+  //   Cookies.set('darkMode', newDarkMode ? 'ON' : 'OFF');
+  // };
   const [anchorEl, setAnchorEl] = useState(null);
   const loginClickHandler = (e) => {
     setAnchorEl(e.currentTarget);
@@ -212,15 +213,20 @@ export default function Layout({ title, description, children }) {
               </form>
             </div>
             <div>
-              <Switch
+              {/* <Switch
                 checked={darkMode}
                 onChange={darkModeChangeHandler}
-              ></Switch>
-                            <NextLink href="/about" passHref>
-                              <Link>
-                              <Typography component="span">About</Typography>
-                              </Link>
-                            </NextLink>
+              ></Switch> */}
+              <NextLink href="/about" passHref>
+                <Link>
+                  <Typography component="span">About</Typography>
+                </Link>
+              </NextLink>
+              <NextLink href="/contact" passHref>
+                <Link>
+                  <Typography component="span">Contact</Typography>
+                </Link>
+              </NextLink>
               <NextLink href="/cart" passHref>
                 <Link>
                   <Typography component="span">
@@ -284,15 +290,20 @@ export default function Layout({ title, description, children }) {
                     <Typography component="span">Login</Typography>
                   </Link>
                 </NextLink>
-                
               )}
             </div>
           </Toolbar>
         </AppBar>
         <Container className={classes.main}>{children}</Container>
+        {/* <ContactForm /> */}
         <footer className={classes.footer}>
-          <Typography className={classes.h3}>All rights reserved. Tim Furlow Fine Art.</Typography>
-          <Typography className={classes.h4}> &copy; Mia Dugas Designs 2021</Typography>
+          <Typography className={classes.h3}>
+            All rights reserved. Tim Furlow Fine Art.
+          </Typography>
+          <Typography className={classes.h4}>
+            {' '}
+            &copy; Mia Dugas Designs 2021
+          </Typography>
         </footer>
       </ThemeProvider>
     </div>

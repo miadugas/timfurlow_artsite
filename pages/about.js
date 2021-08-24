@@ -43,9 +43,9 @@ export default function AboutMe() {
           painting is the creation of a blend of pop art, overshadowing
           brilliantly colored abstract art. Each piece is completed 1 dot at a
           time using a size 0 brush. No stencils are used in any piece.
-          Commissioned work and live events are available- for event scheduling,
-          please feel free to contact me.
           <br />
+          Commissioned work and live events are available for event scheduling,
+          please feel free to contact me.
           I&apos;ve started a kickstarter to crowdfund my very first true crime
           documentary. My goal is to show the world what they&apos;ve forgotten.
           I love recreating the past in a modern way. Please join me on this
