@@ -291,8 +291,8 @@ export default function Layout({ title, description, children }) {
         </AppBar>
         <Container className={classes.main}>{children}</Container>
         <footer className={classes.footer}>
-          <Typography>All rights reserved. Tim Furlow Fine Art.</Typography>
-          <Typography> Mia Dugas Designs</Typography>
+          <Typography className={classes.h3}>All rights reserved. Tim Furlow Fine Art.</Typography>
+          <Typography className={classes.h4}> &copy; Mia Dugas Designs 2021</Typography>
         </footer>
       </ThemeProvider>
     </div>

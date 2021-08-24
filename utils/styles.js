@@ -88,5 +88,13 @@ const useStyles = makeStyles((theme) => ({
   sort: {
     marginRight: 5,
   },
+  h3: {
+    fontSize: '15px',
+    color: '#cccbc8',
+  },
+  h4: {
+    fontSize: '10px',
+    color: '#cccbc8',
+  },
 }));
 export default useStyles;
