@@ -216,6 +216,11 @@ export default function Layout({ title, description, children }) {
                 checked={darkMode}
                 onChange={darkModeChangeHandler}
               ></Switch>
+                            <NextLink href="/about" passHref>
+                              <Link>
+                              <Typography component="span">About</Typography>
+                              </Link>
+                            </NextLink>
               <NextLink href="/cart" passHref>
                 <Link>
                   <Typography component="span">
@@ -279,6 +284,7 @@ export default function Layout({ title, description, children }) {
                     <Typography component="span">Login</Typography>
                   </Link>
                 </NextLink>
+                
               )}
             </div>
           </Toolbar>
@@ -286,6 +292,7 @@ export default function Layout({ title, description, children }) {
         <Container className={classes.main}>{children}</Container>
         <footer className={classes.footer}>
           <Typography>All rights reserved. Tim Furlow Fine Art.</Typography>
+          <Typography> Mia Dugas Designs</Typography>
         </footer>
       </ThemeProvider>
     </div>

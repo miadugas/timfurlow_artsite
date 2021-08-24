@@ -119,3 +119,7 @@
     flex-direction: column;
   }
 }
+
+.sig {
+  margin: top 15px;
+}
