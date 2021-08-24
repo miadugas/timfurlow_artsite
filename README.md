@@ -5,7 +5,7 @@
 <hr>
 
 ## Description
-
+Ecommerce site for Tim Furlow Fine Art.
 <hr>
 
  ![Main View](https://github.com/miadugas/timfurlow_artsite/blob/main/tffa01.png)
