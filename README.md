@@ -5,11 +5,13 @@
 <hr>
 
 ## Description
-Ecommerce site for Tim Furlow Fine Art. Incudes an admin area to manage orders, users & inventory. Payment processing through PayPal.
+
+Ecommerce site for Tim Furlow Fine Art. Includes an admin area to manage orders, users & inventory. Payment processing through PayPal.
 Live Site: http://www.timfurlowfineart.com
+
 <hr>
 
- ![Main View](https://github.com/miadugas/timfurlow_artsite/blob/main/tffa01.png)
+![Main View](https://github.com/miadugas/timfurlow_artsite/blob/main/tffa01.png)
 
 ## Issues platform
 
@@ -27,18 +29,18 @@ const initialState = {
   userInfo: Cookies.get('userInfo')
     ? (Cookies.get('userInfo'))
     : null,
-}; 
+};
 ///////////////////
-Math round2 in placeorder ??? check on that 
+Math round2 in placeorder ??? check on that
 ///////////////////
 
 -->
-
 
 ## Technology Used
 
 MongoDB, Mongoose, Node.js, React, NextJS, Next Connect, React Hook Form
 Streamifier, Multer, Cloudinary
+
 <hr>
 
 ### Additional Styling & Non-Technical Frameworks
