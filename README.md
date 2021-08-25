@@ -5,7 +5,8 @@
 <hr>
 
 ## Description
-Ecommerce site for Tim Furlow Fine Art.
+Ecommerce site for Tim Furlow Fine Art. Incudes an admin area to manage orders, users & inventory.
+Live Site: https://www.timfurlowfineart.com
 <hr>
 
  ![Main View](https://github.com/miadugas/timfurlow_artsite/blob/main/tffa01.png)
