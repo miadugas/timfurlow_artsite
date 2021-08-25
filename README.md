@@ -5,7 +5,7 @@
 <hr>
 
 ## Description
-Ecommerce site for Tim Furlow Fine Art. Incudes an admin area to manage orders, users & inventory.
+Ecommerce site for Tim Furlow Fine Art. Incudes an admin area to manage orders, users & inventory. Payment processing through PayPal.
 Live Site: http://www.timfurlowfineart.com
 <hr>
 
