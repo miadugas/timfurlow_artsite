@@ -6,8 +6,7 @@
 
 ## Description
 
-Ecommerce site for Tim Furlow Fine Art. Includes an admin area to manage orders, users & inventory. Payment processing through PayPal.
-Live Site: http://www.timfurlowfineart.com
+Tim Furlow Fine Art is an e-commerce site that offers a range of high-quality art pieces created by Tim Furlow. The site features an easy-to-navigate interface that allows users to browse and purchase art pieces online. The site also includes an admin area that enables Tim Furlow and his team to manage orders, users, and inventory efficiently. To facilitate secure and hassle-free transactions, the site is integrated with PayPal for payment processing. With its user-friendly design and robust features, Tim Furlow Fine Art is an excellent platform for art enthusiasts to discover and acquire beautiful works of art.
 
 <hr>
 
